@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pre:start": "(cd ./packages/server && npm i) && (cd ./packages/web && npm i)",
-    "server": "(cd ./packages/server && npm run dev)",
+    "server": "(cd ./packages/server && npm run start)",
+    "server:inst": "(cd ./packages/server && npm i && npm build)",
     "web": "(cd ./packages/web && npm run dev)"
   },
   "keywords": [],
