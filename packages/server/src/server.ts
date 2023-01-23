@@ -6,6 +6,7 @@ import middlewareError from '@middleware/error.middleware';
 import postRouter from './routers/post.routes';
 
 const app = express();
+const port = process.env.PORT || 3015
 
 app.use(express.json());
 app.use(cors());
@@ -14,4 +15,4 @@ app.use(postRouter);
 
 app.use(middlewareError);
 
-app.listen(3015, () => console.log('Utilizando a porta 3015'));
+app.listen(port, () => console.log(`Utilizando a porta ${port}}`));
