@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Lato:wght@100;800&family=Noto+Serif+Toto&family=Source+Serif+Pro:wght@200;300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0.3rem;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.navBar { 
+  display: flex;
+  font-weight: 600;
+}
+
+.container {
+  margin: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 2rem;
+}
+
+hr {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 600;
+  width: 20rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  filter: drop-shadow(0.3rem 0.3rem 0.2rem gray); 
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.textNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.menu span:first-of-type {
+  color: gray
+}
+
+a:hover {
+  background-color: rgba(192,192,192,0.3);
+  border-radius: 0.5rem;
+}
+
+button {
+  background: #FFFFFF;
+	border-style: none;
+	width: 20rem;
+  height: 3rem;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}

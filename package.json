@@ -1,0 +1,14 @@
+{
+  "name": "desafio-atual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pre:start": "(cd ./packages/server && npm i) && (cd ./packages/web && npm i)",
+    "server": "(cd ./packages/server && npm run dev)",
+    "web": "(cd ./packages/web && npm run dev)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
